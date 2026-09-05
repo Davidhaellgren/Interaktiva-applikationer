@@ -1,5 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
-    background-color: #bd2222;
+    background-color: #ffffff;
+}
+
+.main-container {
+    max-width: 800px;
+    height: 100vh;
+    background-color: #5822bd;
+    margin: auto;
 }
 
 nav { 
@@ -10,7 +22,7 @@ nav {
 }
 
 header {
-    background-color: #4b22bd;
+    background-color: #bd229b;
     color: rgb(0, 0, 0);
     padding: 5px;
     text-align: center;
