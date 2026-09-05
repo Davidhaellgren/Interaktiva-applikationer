@@ -1,0 +1,30 @@
+body {
+    background-color: #bd2222;
+}
+
+nav { 
+    background-color: #bd9f22;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    background-color: #4b22bd;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+main {
+    background-color: #22bd7f;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
