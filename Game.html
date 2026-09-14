@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/GameStyle.css">
+  <title>Shut the Box</title>
+</head>
+<body>
+
+  <div class="table">
+    <h1>Shut the Box</h1>
+    <p class="subtitle">Fäll ner brickor som matchar tärningarnas summa — stäng lådan innan du kör fast.</p>
+
+    <div class="box">
+      <div class="tiles" id="tiles">
+        <button class="tile" aria-pressed="false" aria-label="Bricka 1, öppen">1</button>
+        <button class="tile" aria-pressed="false" aria-label="Bricka 2, öppen">2</button>
+        <button class="tile" aria-pressed="false" aria-label="Bricka 3, öppen">3</button>
+        <button class="tile" aria-pressed="false" aria-label="Bricka 4, öppen">4</button>
+        <button class="tile down" aria-pressed="true" aria-label="Bricka 5, stängd">5</button>
+        <button class="tile" aria-pressed="false" aria-label="Bricka 6, öppen">6</button>
+        <button class="tile" aria-pressed="false" aria-label="Bricka 7, öppen">7</button>
+        <button class="tile" aria-pressed="false" aria-label="Bricka 8, öppen">8</button>
+        <button class="tile down" aria-pressed="true" aria-label="Bricka 9, stängd">9</button>
+      </div>
+
+      <div class="felt">
+        <div class="dice-area">
+          <div class="die" id="die1">
+            <div class="pip"></div>
+            <div class="pip"></div>
+            <div class="pip"></div>
+            <div class="pip"></div>
+            <div class="pip pip-on"></div>
+            <div class="pip"></div>
+            <div class="pip"></div>
+            <div class="pip"></div>
+            <div class="pip"></div>
+          </div>
+          <div class="die" id="die2">
+            <div class="pip pip-on"></div>
+            <div class="pip"></div>
+            <div class="pip pip-on"></div>
+            <div class="pip"></div>
+            <div class="pip pip-on"></div>
+            <div class="pip"></div>
+            <div class="pip pip-on"></div>
+            <div class="pip"></div>
+            <div class="pip pip-on"></div>
+          </div>
+        </div>
+
+        <div class="status-line">
+          <p class="msg" id="msg">Slog 1 + 5 = 6. Välj brickor som ger samma summa.</p>
+          <p class="score" id="score">Summa kvar i lådan: 31</p>
+        </div>
+
+        <button class="roll-btn" id="rollBtn">Slå tärningarna</button>
+      </div>
+    </div>
+
+    <div class="players">
+      <span class="player active">Du</span>
+      <span class="player">Motspelare</span>
+    </div>
+  </div>
+
+</body>
+</html>
